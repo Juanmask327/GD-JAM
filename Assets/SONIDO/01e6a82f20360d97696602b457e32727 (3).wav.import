@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://disgqgg5u0ewu"
+path="res://.godot/imported/01e6a82f20360d97696602b457e32727 (3).wav-6c03c2160ebbf02ef7536d83291676a6.sample"
+
+[deps]
+
+source_file="res://assets/Assets/SONIDO/01e6a82f20360d97696602b457e32727 (3).wav"
+dest_files=["res://.godot/imported/01e6a82f20360d97696602b457e32727 (3).wav-6c03c2160ebbf02ef7536d83291676a6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
