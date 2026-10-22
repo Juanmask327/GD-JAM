@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cxojuuj8h1jco"
-path="res://.godot/imported/cube-portal.png-f1f254a15498ce14e117b2d2574689ff.ctex"
+path="res://.godot/imported/cube-portal.png-45fb0bc81a951c441e13a87bd1d6d923.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PORTALES/cube-portal.png"
-dest_files=["res://.godot/imported/cube-portal.png-f1f254a15498ce14e117b2d2574689ff.ctex"]
+source_file="res://Assets/PORTALES/cube-portal.png"
+dest_files=["res://.godot/imported/cube-portal.png-45fb0bc81a951c441e13a87bd1d6d923.ctex"]
 
 [params]
 

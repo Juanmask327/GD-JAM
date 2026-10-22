@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dnxba55i5joq6"
-path="res://.godot/imported/Cubo.jpeg-6eecc0a4e2c6dceaa6dfdf22300058d2.ctex"
+path="res://.godot/imported/Cubo.jpeg-9b58ae9c95c1d621ed40fd7a0895c340.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PLAYER-NAVE-MONEDA/Cubo.jpeg"
-dest_files=["res://.godot/imported/Cubo.jpeg-6eecc0a4e2c6dceaa6dfdf22300058d2.ctex"]
+source_file="res://Assets/PLAYER-NAVE-MONEDA/Cubo.jpeg"
+dest_files=["res://.godot/imported/Cubo.jpeg-9b58ae9c95c1d621ed40fd7a0895c340.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dshik5y1r66bj"
-path="res://.godot/imported/gravring_01_001.png-c9fde942f959034d306922dcc10696e7.ctex"
+path="res://.godot/imported/gravring_01_001.png-a297623bd502dff5e655eab91236a418.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PORTALES/gravring_01_001.png"
-dest_files=["res://.godot/imported/gravring_01_001.png-c9fde942f959034d306922dcc10696e7.ctex"]
+source_file="res://Assets/PORTALES/gravring_01_001.png"
+dest_files=["res://.godot/imported/gravring_01_001.png-a297623bd502dff5e655eab91236a418.ctex"]
 
 [params]
 

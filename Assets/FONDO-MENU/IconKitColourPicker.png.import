@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bab8hl1ngstw5"
-path="res://.godot/imported/IconKitColourPicker.png-ba9ee6e148b3a6af4144d37e04c1a4fb.ctex"
+path="res://.godot/imported/IconKitColourPicker.png-eb673fc1d0ed84c124a6a058daef3a42.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/FONDO-MENU/IconKitColourPicker.png"
-dest_files=["res://.godot/imported/IconKitColourPicker.png-ba9ee6e148b3a6af4144d37e04c1a4fb.ctex"]
+source_file="res://Assets/FONDO-MENU/IconKitColourPicker.png"
+dest_files=["res://.godot/imported/IconKitColourPicker.png-eb673fc1d0ed84c124a6a058daef3a42.ctex"]
 
 [params]
 

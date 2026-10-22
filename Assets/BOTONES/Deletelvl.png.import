@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6g4q1i170e6a"
-path="res://.godot/imported/Deletelvl.png-a119da869d3bc7588226839a5cd7ac5c.ctex"
+path="res://.godot/imported/Deletelvl.png-e2a431aef9e37552fd92a885a9626b23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/BOTONES/Deletelvl.png"
-dest_files=["res://.godot/imported/Deletelvl.png-a119da869d3bc7588226839a5cd7ac5c.ctex"]
+source_file="res://Assets/BOTONES/Deletelvl.png"
+dest_files=["res://.godot/imported/Deletelvl.png-e2a431aef9e37552fd92a885a9626b23.ctex"]
 
 [params]
 

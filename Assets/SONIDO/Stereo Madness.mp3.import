@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://d2xeg4kqc6k3a"
-path="res://.godot/imported/Stereo Madness.mp3-51acb59922a668760562467b95c4848a.mp3str"
+path="res://.godot/imported/Stereo Madness.mp3-e2a87c0c7912971e62752558b0fcd78d.mp3str"
 
 [deps]
 
-source_file="res://assets/Assets/SONIDO/Stereo Madness.mp3"
-dest_files=["res://.godot/imported/Stereo Madness.mp3-51acb59922a668760562467b95c4848a.mp3str"]
+source_file="res://Assets/SONIDO/Stereo Madness.mp3"
+dest_files=["res://.godot/imported/Stereo Madness.mp3-e2a87c0c7912971e62752558b0fcd78d.mp3str"]
 
 [params]
 

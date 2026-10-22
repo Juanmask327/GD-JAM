@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dfqvvugkevnxq"
-path="res://.godot/imported/ball-portal.png-c51fb1d155f947cf9d02b74c48aa068d.ctex"
+path="res://.godot/imported/ball-portal.png-4f61debaa3c65a14fe9b7dce8b8a5e83.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PORTALES/ball-portal.png"
-dest_files=["res://.godot/imported/ball-portal.png-c51fb1d155f947cf9d02b74c48aa068d.ctex"]
+source_file="res://Assets/PORTALES/ball-portal.png"
+dest_files=["res://.godot/imported/ball-portal.png-4f61debaa3c65a14fe9b7dce8b8a5e83.ctex"]
 
 [params]
 

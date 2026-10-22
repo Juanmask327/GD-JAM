@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1xeev1uqiqvj"
-path="res://.godot/imported/Ufo portal.webp-efeb42e80445258c9466d9694c2b43e5.ctex"
+path="res://.godot/imported/Ufo portal.webp-daebbb1b99353c8a7c453c618ec2a32c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PORTALES/Ufo portal.webp"
-dest_files=["res://.godot/imported/Ufo portal.webp-efeb42e80445258c9466d9694c2b43e5.ctex"]
+source_file="res://Assets/PORTALES/Ufo portal.webp"
+dest_files=["res://.godot/imported/Ufo portal.webp-daebbb1b99353c8a7c453c618ec2a32c.ctex"]
 
 [params]
 

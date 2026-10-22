@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cnqd88ptetpbs"
-path="res://.godot/imported/epicbox.png-c4000f07610243dd80c241abb5adeedd.ctex"
+path="res://.godot/imported/epicbox.png-4afe63b60dc53f7a9e207a548a83a623.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/BOTONES/epicbox.png"
-dest_files=["res://.godot/imported/epicbox.png-c4000f07610243dd80c241abb5adeedd.ctex"]
+source_file="res://Assets/BOTONES/epicbox.png"
+dest_files=["res://.godot/imported/epicbox.png-4afe63b60dc53f7a9e207a548a83a623.ctex"]
 
 [params]
 

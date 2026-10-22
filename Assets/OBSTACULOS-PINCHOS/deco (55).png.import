@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sqkebj0f731d"
-path="res://.godot/imported/deco (55).png-0394140735eed883177a8b9922ade751.ctex"
+path="res://.godot/imported/deco (55).png-c633e117dca4ccec6d0bf8b5677178bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/OBSTACULOS-PINCHOS/deco (55).png"
-dest_files=["res://.godot/imported/deco (55).png-0394140735eed883177a8b9922ade751.ctex"]
+source_file="res://Assets/OBSTACULOS-PINCHOS/deco (55).png"
+dest_files=["res://.godot/imported/deco (55).png-c633e117dca4ccec6d0bf8b5677178bf.ctex"]
 
 [params]
 

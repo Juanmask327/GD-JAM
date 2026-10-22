@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r41mrw25fdeo"
-path="res://.godot/imported/explosion3-removebg-preview.png-7608dc43aa170d5907eb1005c0c58a77.ctex"
+path="res://.godot/imported/explosion3-removebg-preview.png-14d1bcae14e5b9cb5cbc0b4b18a07d48.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/PARTICULA-EXPLOSION-EFECTOS/explosion3-removebg-preview.png"
-dest_files=["res://.godot/imported/explosion3-removebg-preview.png-7608dc43aa170d5907eb1005c0c58a77.ctex"]
+source_file="res://Assets/PARTICULA-EXPLOSION-EFECTOS/explosion3-removebg-preview.png"
+dest_files=["res://.godot/imported/explosion3-removebg-preview.png-14d1bcae14e5b9cb5cbc0b4b18a07d48.ctex"]
 
 [params]
 

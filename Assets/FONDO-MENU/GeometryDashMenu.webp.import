@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w8of3hgpr2k7"
-path="res://.godot/imported/GeometryDashMenu.webp-eb4c5022a22578a26ff2bb8eefc01e9a.ctex"
+path="res://.godot/imported/GeometryDashMenu.webp-bf53e88bd20ab204d36618cb834e77f8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/FONDO-MENU/GeometryDashMenu.webp"
-dest_files=["res://.godot/imported/GeometryDashMenu.webp-eb4c5022a22578a26ff2bb8eefc01e9a.ctex"]
+source_file="res://Assets/FONDO-MENU/GeometryDashMenu.webp"
+dest_files=["res://.godot/imported/GeometryDashMenu.webp-bf53e88bd20ab204d36618cb834e77f8.ctex"]
 
 [params]
 

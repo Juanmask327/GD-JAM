@@ -1,0 +1,104 @@
+[gd_scene format=3 uid="uid://cvgw5fsbpimg0"]
+
+[ext_resource type="Texture2D" uid="uid://b3alpaaqux4wq" path="res://assets/Assets/FONDO-MENU/OIP (5).jpg" id="2_bg"]
+[ext_resource type="Texture2D" uid="uid://c47q0mdmwjl0e" path="res://assets/Assets/FONDO-MENU/11618486.png" id="3_logo"]
+[ext_resource type="Texture2D" uid="uid://dnxwhjhujm5n3" path="res://assets/Assets/BOTONES/GJ_playBtn_001.png" id="4_play"]
+[ext_resource type="Texture2D" uid="uid://bussld3ahj7qo" path="res://assets/Assets/BOTONES/Setting.png" id="5_setting"]
+[ext_resource type="Texture2D" uid="uid://idnt4hirtj6o" path="res://assets/Assets/BOTONES/Back to menu.png" id="6_back"]
+[ext_resource type="AudioStream" uid="uid://kt7s5a1734fm" path="res://assets/Assets/SONIDO/25d9b70c2a39765d56c9af1fb95e7c29 (1).wav" id="7_8ytrl"]
+
+[node name="MenuPrincipal" type="Control" unique_id=703738970]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Fondo" type="TextureRect" parent="." unique_id=1732795575]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="ContenedorAnimacion" type="Control" parent="." unique_id=1435834852]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Logo" type="TextureRect" parent="ContenedorAnimacion" unique_id=1733140572]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -426.0
+offset_top = 31.0
+offset_right = 380.0
+offset_bottom = 316.0
+grow_horizontal = 2
+texture = ExtResource("3_logo")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="BotonJugar" type="TextureButton" parent="ContenedorAnimacion" unique_id=763045209]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -150.0
+offset_top = -72.0
+offset_right = 96.0
+offset_bottom = 171.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("4_play")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="BotonAjustes" type="TextureButton" parent="ContenedorAnimacion" unique_id=291131971]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -557.0
+offset_top = 182.0
+offset_right = -413.0
+offset_bottom = 322.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("5_setting")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="BotonNiveles" type="TextureButton" parent="ContenedorAnimacion" unique_id=285397285]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 139.0
+offset_top = -9.0
+offset_right = 274.0
+offset_bottom = 122.0
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("6_back")
+ignore_texture_size = true
+stretch_mode = 5
+
+[node name="MusicaMenu" type="AudioStreamPlayer" parent="." unique_id=994970468]
+stream = ExtResource("7_8ytrl")
+autoplay = true

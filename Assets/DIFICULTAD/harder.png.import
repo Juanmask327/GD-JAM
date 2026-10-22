@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dj178ollh3apf"
-path="res://.godot/imported/harder.png-b5173ed2ee3c9c65d785c93a11b55b6a.ctex"
+path="res://.godot/imported/harder.png-ff7d56f5aae89a0eb93d1de20ec0c689.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/DIFICULTAD/harder.png"
-dest_files=["res://.godot/imported/harder.png-b5173ed2ee3c9c65d785c93a11b55b6a.ctex"]
+source_file="res://Assets/DIFICULTAD/harder.png"
+dest_files=["res://.godot/imported/harder.png-ff7d56f5aae89a0eb93d1de20ec0c689.ctex"]
 
 [params]
 

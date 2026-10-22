@@ -1,0 +1,115 @@
+[gd_scene format=3 uid="uid://ch016851gp046"]
+
+[ext_resource type="Texture2D" uid="uid://dnxba55i5joq6" path="res://assets/Assets/PLAYER-NAVE-MONEDA/Cubo.jpeg" id="1_p0vlq"]
+[ext_resource type="Texture2D" uid="uid://kij76ecjxfxg" path="res://assets/Assets/PLAYER-NAVE-MONEDA/Ship001.webp" id="3_3li8b"]
+[ext_resource type="Texture2D" uid="uid://r41mrw25fdeo" path="res://assets/Assets/PARTICULA-EXPLOSION-EFECTOS/explosion3-removebg-preview.png" id="4_mdl7e"]
+[ext_resource type="PackedScene" uid="uid://cyjln8t8ywckh" path="res://scenes/MenuPausa.tscn" id="5_menupausa"]
+[ext_resource type="AudioStream" uid="uid://dft4sdyng8g3n" path="res://assets/Assets/SONIDO/3a36bf590171c05df5443857c0f5e1ef.wav" id="6_death_sound"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qu4a1"]
+atlas = ExtResource("4_mdl7e")
+region = Rect2(60, 186, 60, 62)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_70d11"]
+atlas = ExtResource("4_mdl7e")
+region = Rect2(92, 0, 92, 90)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cw2d6"]
+atlas = ExtResource("4_mdl7e")
+region = Rect2(184, 0, 92, 90)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_khinc"]
+atlas = ExtResource("4_mdl7e")
+region = Rect2(276, 0, 92, 90)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bruh7"]
+atlas = ExtResource("4_mdl7e")
+region = Rect2(368, 0, 92, 90)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wp5od"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qu4a1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_70d11")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cw2d6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_khinc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bruh7")
+}],
+"loop": 1,
+"name": &"dead",
+"speed": 10.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_roja"]
+size = Vector2(121, 120)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_azul"]
+size = Vector2(54.285706, 55.714283)
+
+[node name="Player" type="Node2D" unique_id=491615235]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1556130930]
+collision_layer = 4
+
+[node name="Cubo_Nave" type="Sprite2D" parent="CharacterBody2D" unique_id=1390036519]
+scale = Vector2(0.7, 0.7)
+texture = ExtResource("1_p0vlq")
+
+[node name="Nave" type="Sprite2D" parent="CharacterBody2D" unique_id=651014728]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(-6, 13)
+scale = Vector2(1.3, 1.3)
+texture = ExtResource("3_3li8b")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=1344888872]
+position = Vector2(896, -297)
+zoom = Vector2(2.7, 2.7)
+position_smoothing_speed = 2.0
+
+[node name="Cubo" type="Sprite2D" parent="CharacterBody2D" unique_id=2068084633]
+texture = ExtResource("1_p0vlq")
+
+[node name="Explosion_die" type="AnimatedSprite2D" parent="CharacterBody2D" unique_id=564387571]
+light_mask = 0
+scale = Vector2(5, 3.736)
+sprite_frames = SubResource("SpriteFrames_wp5od")
+animation = &"dead"
+frame_progress = 0.34324136
+
+[node name="HitboxFisicaRoja" type="CollisionShape2D" parent="CharacterBody2D" unique_id=907695807]
+shape = SubResource("RectangleShape2D_roja")
+debug_color = Color(1, 0, 0, 0.42)
+
+[node name="DetectorPinchos" type="Area2D" parent="CharacterBody2D" unique_id=1019956205]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/DetectorPinchos" unique_id=1065741297]
+shape = SubResource("RectangleShape2D_roja")
+
+[node name="HitboxAzulInterior" type="Area2D" parent="CharacterBody2D" unique_id=370298890]
+collision_layer = 0
+collision_mask = 3
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/HitboxAzulInterior" unique_id=123172825]
+position = Vector2(1.5258789e-05, -9.536743e-07)
+scale = Vector2(0.7, 0.7)
+shape = SubResource("RectangleShape2D_azul")
+debug_color = Color(0, 0.6, 1, 0.42)
+
+[node name="SonidoMuerte" type="AudioStreamPlayer" parent="CharacterBody2D" unique_id=751308359]
+stream = ExtResource("6_death_sound")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2114272273]
+layer = 100
+
+[node name="MenuPausa" parent="CanvasLayer" unique_id=2041064278 instance=ExtResource("5_menupausa")]

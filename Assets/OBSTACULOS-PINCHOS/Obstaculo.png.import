@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c5mpormvkw45f"
-path="res://.godot/imported/Obstaculo.png-2053d33322f98e2e8227139c2b2bba85.ctex"
+path="res://.godot/imported/Obstaculo.png-603f36a73660a3fd977c4170eb0b85ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/OBSTACULOS-PINCHOS/Obstaculo.png"
-dest_files=["res://.godot/imported/Obstaculo.png-2053d33322f98e2e8227139c2b2bba85.ctex"]
+source_file="res://Assets/OBSTACULOS-PINCHOS/Obstaculo.png"
+dest_files=["res://.godot/imported/Obstaculo.png-603f36a73660a3fd977c4170eb0b85ce.ctex"]
 
 [params]
 

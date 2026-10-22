@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cwvxs1yhuaie3"
-path="res://.godot/imported/groundSquare_01_001-hd.png-39c902697352223bfa9277564dc86acc.ctex"
+path="res://.godot/imported/groundSquare_01_001-hd.png-24adc64029334a5009e8f94e8ba9b10f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Assets/OBSTACULOS-PINCHOS/groundSquare_01_001-hd.png"
-dest_files=["res://.godot/imported/groundSquare_01_001-hd.png-39c902697352223bfa9277564dc86acc.ctex"]
+source_file="res://Assets/OBSTACULOS-PINCHOS/groundSquare_01_001-hd.png"
+dest_files=["res://.godot/imported/groundSquare_01_001-hd.png-24adc64029334a5009e8f94e8ba9b10f.ctex"]
 
 [params]
 
