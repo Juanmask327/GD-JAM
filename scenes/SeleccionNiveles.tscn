@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://bg62rxxo418ia"]
 
+[ext_resource type="Script" uid="uid://ukdub4c8d4vi" path="res://scripts/seleccion_niveles.gd" id="1_s4ugi"]
 [ext_resource type="Texture2D" uid="uid://rriyt13kq78b" path="res://Assets/FONDO-MENU/descarga (2).png" id="2_oqd7v"]
 [ext_resource type="Texture2D" uid="uid://datpo6qokymlq" path="res://Assets/BOTONES/pasar niveles.png" id="3_s4ugi"]
 [ext_resource type="Texture2D" uid="uid://5lkco7bpu02e" path="res://Assets/BOTONES/arrow-left.png" id="4_s4ugi"]
@@ -11,6 +12,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_s4ugi")
 
 [node name="HitboxNivel" type="TextureButton" parent="." unique_id=1903998612]
 layout_mode = 1
