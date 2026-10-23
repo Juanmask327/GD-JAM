@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cyjln8t8ywckh"]
 
+[ext_resource type="Script" uid="uid://bbb08mah4v8mu" path="res://scripts/menu_pausa.gd" id="1_hs8k6"]
 [ext_resource type="Texture2D" uid="uid://idnt4hirtj6o" path="res://Assets/BOTONES/Back to menu.png" id="2_menu"]
 [ext_resource type="Texture2D" uid="uid://cmlw2fsvda2so" path="res://Assets/BOTONES/Play level.png" id="3_play"]
 [ext_resource type="Texture2D" uid="uid://cqf8mr5oviyti" path="res://Assets/BOTONES/Restart.png" id="4_restart"]
@@ -14,6 +15,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_hs8k6")
 
 [node name="ColorRect" type="ColorRect" parent="." unique_id=613624739]
 layout_mode = 1
@@ -52,3 +54,7 @@ texture_normal = ExtResource("4_restart")
 position = Vector2(588, 327.50003)
 scale = Vector2(1, 0.64900005)
 texture = ExtResource("5_hs8k6")
+
+[connection signal="pressed" from="CenterContainer/HBoxContainer/MenuBtn" to="." method="_on_menu_btn_pressed"]
+[connection signal="pressed" from="CenterContainer/HBoxContainer/PlayBtn" to="." method="_on_play_btn_pressed"]
+[connection signal="pressed" from="CenterContainer/HBoxContainer/RestartBtn" to="." method="_on_restart_btn_pressed"]

@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://bg62rxxo418ia"]
 
-[ext_resource type="Texture2D" uid="uid://rriyt13kq78b" path="res://assets/Assets/FONDO-MENU/descarga (2).png" id="2_oqd7v"]
-[ext_resource type="Texture2D" uid="uid://datpo6qokymlq" path="res://assets/Assets/BOTONES/pasar niveles.png" id="3_s4ugi"]
-[ext_resource type="Texture2D" uid="uid://5lkco7bpu02e" path="res://assets/Assets/BOTONES/arrow-left.png" id="4_s4ugi"]
+[ext_resource type="Texture2D" uid="uid://rriyt13kq78b" path="res://Assets/FONDO-MENU/descarga (2).png" id="2_oqd7v"]
+[ext_resource type="Texture2D" uid="uid://datpo6qokymlq" path="res://Assets/BOTONES/pasar niveles.png" id="3_s4ugi"]
+[ext_resource type="Texture2D" uid="uid://5lkco7bpu02e" path="res://Assets/BOTONES/arrow-left.png" id="4_s4ugi"]
 
 [node name="SeleccionNiveles" type="Control" unique_id=1216249105]
 layout_mode = 3

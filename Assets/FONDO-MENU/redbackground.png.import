@@ -7,7 +7,7 @@ valid=false
 
 [deps]
 
-source_file="res://assets/Assets geometry dash-Cesar Martinez/FONDO-MENU/redbackground.png"
+source_file="res://Assets/FONDO-MENU/redbackground.png"
 
 [params]
 
