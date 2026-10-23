@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://wnrurhka2c4m"]
 
-[ext_resource type="Texture2D" uid="uid://c0hr81xwwuxnx" path="res://assets/Assets/PORTALES/ShipPortalLabelled.webp" id="2_ke3id"]
+[ext_resource type="Script" uid="uid://ba04ppnudg2eg" path="res://scripts/portal_nave.gd" id="1_gw21t"]
+[ext_resource type="Texture2D" uid="uid://c0hr81xwwuxnx" path="res://Assets/PORTALES/ShipPortalLabelled.webp" id="2_ke3id"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_u5bk5"]
 size = Vector2(57, 102)
 
 [node name="Portal" type="Node2D" unique_id=1051369162]
+script = ExtResource("1_gw21t")
 
 [node name="PortalNave" type="Area2D" parent="." unique_id=1391350990]
 collision_layer = 0

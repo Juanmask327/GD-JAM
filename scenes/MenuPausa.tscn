@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://cyjln8t8ywckh"]
 
-[ext_resource type="Texture2D" uid="uid://idnt4hirtj6o" path="res://assets/Assets/BOTONES/Back to menu.png" id="2_menu"]
-[ext_resource type="Texture2D" uid="uid://cmlw2fsvda2so" path="res://assets/Assets/BOTONES/Play level.png" id="3_play"]
-[ext_resource type="Texture2D" uid="uid://cqf8mr5oviyti" path="res://assets/Assets/BOTONES/Restart.png" id="4_restart"]
-[ext_resource type="Texture2D" uid="uid://cnqd88ptetpbs" path="res://assets/Assets/BOTONES/epicbox.png" id="5_hs8k6"]
+[ext_resource type="Texture2D" uid="uid://idnt4hirtj6o" path="res://Assets/BOTONES/Back to menu.png" id="2_menu"]
+[ext_resource type="Texture2D" uid="uid://cmlw2fsvda2so" path="res://Assets/BOTONES/Play level.png" id="3_play"]
+[ext_resource type="Texture2D" uid="uid://cqf8mr5oviyti" path="res://Assets/BOTONES/Restart.png" id="4_restart"]
+[ext_resource type="Texture2D" uid="uid://cnqd88ptetpbs" path="res://Assets/BOTONES/epicbox.png" id="5_hs8k6"]
 
 [node name="MenuPausa" type="Control" unique_id=708036259]
 process_mode = 3
@@ -52,4 +52,3 @@ texture_normal = ExtResource("4_restart")
 position = Vector2(588, 327.50003)
 scale = Vector2(1, 0.64900005)
 texture = ExtResource("5_hs8k6")
-
