@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://cngquebcg5rs3"]
 
-[ext_resource type="Texture2D" uid="uid://b3alpaaqux4wq" path="res://assets/Assets/FONDO-MENU/OIP (5).jpg" id="1_wnkk8"]
-[ext_resource type="Texture2D" uid="uid://cwvxs1yhuaie3" path="res://assets/Assets/OBSTACULOS-PINCHOS/groundSquare_01_001-hd.png" id="2_wnkk8"]
+[ext_resource type="Texture2D" uid="uid://b3alpaaqux4wq" path="res://Assets/FONDO-MENU/OIP (5).jpg" id="1_wnkk8"]
+[ext_resource type="Texture2D" uid="uid://cwvxs1yhuaie3" path="res://Assets/OBSTACULOS-PINCHOS/groundSquare_01_001-hd.png" id="2_wnkk8"]
+[ext_resource type="PackedScene" uid="uid://cngok71hcg5or" path="res://scenes/Victoria.tscn" id="3_gl0tc"]
+[ext_resource type="PackedScene" uid="uid://bvpk243v3j3k0" path="res://scenes/Meta.tscn" id="4_trvxr"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_u5bk5"]
 distance = -171.0
@@ -11,6 +13,9 @@ normal = Vector2(0, 1)
 distance = -238.0
 
 [node name="Nivel" type="Node2D" unique_id=2007845914]
+
+[node name="Meta2" parent="." unique_id=737242071 instance=ExtResource("4_trvxr")]
+position = Vector2(1280.4971, 373.47174)
 
 [node name="Parallax2D" type="Parallax2D" parent="." unique_id=1084945769]
 scroll_scale = Vector2(0.5, 1)
@@ -52,3 +57,7 @@ position = Vector2(634, -332)
 texture = ExtResource("2_wnkk8")
 region_enabled = true
 region_rect = Rect2(0, 0, 50000, 200)
+
+[node name="Victoria" parent="." unique_id=1034376687 instance=ExtResource("3_gl0tc")]
+
+[node name="Meta" parent="." unique_id=354415563 instance=ExtResource("4_trvxr")]

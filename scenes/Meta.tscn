@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bvpk243v3j3k0"]
+
+[ext_resource type="Script" uid="uid://bcund40fnx1cm" path="res://scripts/meta.gd" id="1_3d7bx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3d7bx"]
+
+[node name="Meta" type="Area2D" unique_id=1236058176]
+script = ExtResource("1_3d7bx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1444866590]
+light_mask = 0
+shape = SubResource("RectangleShape2D_3d7bx")
+debug_color = Color(0.3558236, 0.482274, 1, 0.41960785)
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=199681141]
+offset_left = 3935.0
+offset_top = 97.0
+offset_right = 3975.0
+offset_bottom = 137.0

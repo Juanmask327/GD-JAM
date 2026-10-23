@@ -49,7 +49,9 @@ func _physics_process(delta: float) -> void:
 	if fixed_camera_y != 0.0:
 		$Camera2D.global_position.y = fixed_camera_y
 
-func _on_death_hitbox(_node: Node2D) -> void:
+func _on_death_hitbox(node: Node2D) -> void:
+	if node.is_in_group("meta"):
+		return
 	die()
 
 func set_mode():
@@ -83,3 +85,14 @@ func die():
 	
 	await get_tree().create_timer(0.5).timeout
 	get_tree().reload_current_scene()
+	
+func ganar() -> void:
+	if is_dead:
+		return
+	is_dead = true  # evita que die() se dispare después de ganar
+	musica_nivel.stop()
+	velocity = Vector2.ZERO
+	set_physics_process(false)
+	var victoria = get_tree().get_first_node_in_group("victoria")
+	if victoria:
+		victoria.mostrar()
