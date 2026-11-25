@@ -1,2 +1,1 @@
-# GD-JAM
-Copia de Geometry Dash elaborada en godot
+Juego de plataformas tipo Geometry Dash en Godot 4
